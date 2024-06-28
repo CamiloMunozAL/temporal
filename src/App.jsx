@@ -3,7 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import { Fragment } from 'react'
-import ViewDetails from './components/ViewDetails'
+import SearchBar from './components/SearchBar'
 
 let movieExample = {
   title: 'The Dark Knight',
@@ -20,13 +20,7 @@ function App() {
 
   return (
     <>
-      <ViewDetails 
-      title={movieExample.title}
-      year={movieExample.year}
-      director={movieExample.director}
-      description={movieExample.description}
-      img={movieExample.img}
-      />
+      <SearchBar />
     </>
   )
 }
