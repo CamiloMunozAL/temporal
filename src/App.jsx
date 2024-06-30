@@ -20,6 +20,7 @@ function App() {
 
   return (
     <>
+    <h3>cambio en <main></main></h3>
       <SearchBar />
     </>
   )
