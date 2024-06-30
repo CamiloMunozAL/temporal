@@ -19,6 +19,7 @@ function App() {
     <>
       <SearchBar />
       <h1>Cambio en la ramanueva1</h1>
+      <h2>otro cambio en la ramanueva2</h2>
     </>
   );
 }
